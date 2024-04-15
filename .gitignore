@@ -1,0 +1,14 @@
+.env
+node_modules/
+.DS_Store
+
+# Native
+*.orig.*
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+npm-debug.*
+yarn-debug.*
+yarn-error.*

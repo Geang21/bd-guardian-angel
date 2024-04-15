@@ -34,7 +34,7 @@ app.post('/contact', async (request, reply) => {
 app.get('/doenca',async () => {
     const doenca = prisma.doencas.findMany()
 
-    ret
+    return {doenca}
 })
 
 app.listen({
